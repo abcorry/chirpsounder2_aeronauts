@@ -8,7 +8,7 @@ INSTALL_PATH=/home/aeronauts/Documents/GitHub/chirpsounder2_aeronauts
 
 # ram disk buffer for fast i/o.
 # if you have a fast SSD or raid, you can also use that
-RINGBUFFER_DIR=/dev/sda/hf25
+RINGBUFFER_DIR=/media/aeronauts/Expansion/hf25
 # delete old data from ram disk
 rm -Rf $RINGBUFFER_DIR
 SAMPLE_RATE=25e6
